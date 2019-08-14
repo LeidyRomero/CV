@@ -1,0 +1,24 @@
+
+    <h1 id="DatosBiograficos" class="text-center display-1">Datos biográficos</h1>
+    <h3 id="Descripcion2">A continuación se encuentran los datos biográficos en una tabla (Descripción):</h3>
+    <h3 id="Contenido2">Contenido (Tabla)</h3>
+
+
+    <table>
+      <tr>
+        <th>Dato</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td>Lugar de nacimiento</td>
+        <td>Bogotá</td>
+      </tr>
+      <tr>
+        <td>Fecha de nacimiento</td>
+        <td>02/04/1999</td>
+      </tr>
+      <tr>
+        <td>RH</td>
+        <td>O+</td>
+      </tr>
+    </table>

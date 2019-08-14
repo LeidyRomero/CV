@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Curriculum vitae</title>
+
+    <style type="text/css">
+      ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(50, 115, 220, 0.3);
+    color: white;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  body {
+  background-color: white;
+}
+footer {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: -50px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            background: black;
+            text-align: center;
+            color: #fff;
+        }
+.pp{
+  text-align: justify;
+}
+.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+    </style>
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+
+    <img id="HOME" src="images/Banner.png" width="100%">
+ <img scr="images/bogota.jpg" width="100%">
+
+    <ul class="a">
+      <li class="dropdown">
+        <a href="#HOME" class="dropbtn">HOME</a>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Who we are?</a>
+        <div class="dropdown-content">
+          <a href="#Us">Us</a>
+          <a href="#ContactInformation">Contact information</a>
+          <a href="#SocialMedia">Social media</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Projects</a>
+        <div class="dropdown-content">
+          <a href="#EddieBlue">Eddie Blue</a>
+          <a href="#">Ludis</a>
+          <a href="#">Phaber</a>
+          <a href="#">Otium</a>
+          <a href="#">BKT</a>
+          <a href="#">S-MAP</a>
+          <a href="#">Electium</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">More (Interest/Hobbies)</a>
+        <div class="dropdown-content">
+          <a href="#Interest">Interest</a>
+          <a href="#Hobbies">Hobbies</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Academical and laboral experience </a>
+        <div class="dropdown-content">
+          <a href="#Otros">Título</a>
+          <a href="#Descripcion3">Descripción</a>
+          <a href="#Contenido3">Contenido</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Habilities</a>
+        <div class="dropdown-content">
+          <a href="#">Blandas</a>
+          <a href="#">Academicas</a>
+          <a href="#">Laborales</a>
+          <a href="#Others">Otras</a>
+        </div>
+      </li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Datos biográficos</a>
+        <div class="dropdown-content">
+          <a href="#DatosBiograficos">Título</a>
+          <a href="#Descripcion2">Descripción</a>
+          <a href="#Contenido2">Contenido</a>
+        </div>
+      </li>
+    </ul>
+
+  <div class="text-center display-1">US</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3 "><img src="images/Foto.jpeg" width="320" height="300"></div>
+        <div class="col-9 ">
+        <h4 id="Us" class="pp"> Systems engineering student at the Universidad de los andes in Colombia. Interests oriented to bussiness architecture formal development of algorithms and transactional systems. Knowledge in programming languages, web development frameworks, systems analysis and solution design. Experience in the development of object oriented programs, structure programs and web applications. Skill in handling situations under pressure, with capacibility to lead or assume organization responsabilities and to work in team to obtain the purposes. Las aptitudes más representativas son la disciplina, responsabilidad y proactividad. Voluntariados en grupos de la Universidad de los andes tales como ANDAR y Sociedad pilo uniandes como líder de casa y represente de ingenierías respectivamente. Proyecto de investigación de acción participativa (IAP) en curso. Experiencia laboral como auxiliar de enseñanza de cursos de Ingeniería de sistemas y computación. </h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center display-1">Social media</div>
+    <h4>Videos favoritos</h4>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 "> <video width="480"controls><source src="https://www.youtube.com/watch?v=1lDWQHkVQPE" type="video/mp4">Él es mi capitan</video></div>
+        <div class="col-4 "><video width="480"controls><source src="Actividad HTML\onepiece" type="video/mp4">Él es mi capitan</video></div>
+        <div class="col-4 "><video width="480"controls><source src="https://ia600301.us.archieve.org/0/items/electricsheep-flock-244-32500-3/00244=32593=23650=23640.mp4" type="video/mp4">Él es mi capitan</video></div>
+      </div>
+    </div>
+
+  <div class="text-center display-1">Projects</div>
+  <h3>Ludis</h3>
+  <h3>Phaber</h3>
+  <h3>Otium</h3>
+  <h3>BKT</h3>
+  <h3>S-Map</h3>
+  <h3>Electium</h3>
+
+  <div class="text-center display-1">Interests</div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 "><h3>Blockchain</h3><img src="images/Banner Blockchain.png" width="100%"></div>
+      <div class="col-12 "><h3>Big cities</h3><img src="images/bogota.jpeg" width="100%"></div>
+      <div class="col-6 "><h3>Bussiness</h3><img src="images/negocios.jpeg"></div>
+      <div class="col-6 "><h3>Bussiness</h3><img src="images/negocios.jpeg"></div>
+    </div>
+  </div>
+
+  <div class="text-center display-1">Hobbies</div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6"><h3>Classical reading</h3><img src="images/leer.jpg"></div>
+      <div class="col-6"><h3>Design</h3><img src="images/dibujar.jpeg"></div>
+      <div class="col-6"><h3>Art</h3><img src="images/arte.jpg"></div>
+      <div class="col-6"><h3>See anime</h3><img src="images/anime.jpg"></div>
+    </div>
+  </div>
+  
+  <div class="text-center display-1">Work experience</div>
+
+    <h4>Experiencia laboral</h4>
+    <ul>
+      <li>Auxiliar de servicios</li>
+      <li>Auxiliar de enseñanza</li>
+      <li>Auxiliar operativa</li>
+    </ul>  
+    <div class="text-center display-1">Academic history</div>
+    <h4>Estudios</h4>
+    <ul>
+      <li>Tecnico en desarrollo de software estructurado</li>
+      <li>Ingenieria de sistemas y computación</li>
+      <li>Ingenieria industrial</li>
+    </ul>  
+
+    <h1 id="MaterialDeInteres">Material de interés</h1>
+
+    <h3 id="Descripcion4">A continuación se encuentran materiales de interés (Descripción):</h3>
+    <h3 id="Contenido4">Contenido</h3>
+
+
+    <h4>Enlaces de interes</h4>
+
+    <a href="https://tmofans.com/lists">Tu manga online</a>
+    <div></div>
+    <a href="https://jkanime.net/">JK Anime</a>
+    <div></div>
+    <div></div>
+    <a href="https://www.youtube.com/watch?v=1lDWQHkVQPE">Él es mi capitan</a>
+    <div></div>
+    <div></div>
+    <a href="https://www.youtube.com/watch?v=7YcFXt4hCvw">A new era</a>
+
+    <footer>
+        <div class='define'>
+            <p>Bootstrap and info de contacto</p>
+        </div>
+    </footer>
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
