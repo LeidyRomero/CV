@@ -9,7 +9,13 @@ ul {
 li {
   float: left;
 }
-
+p.marginp
+{
+  margin-left: 5vw;
+}
+img.flo {
+  float: left;
+}
 li a, .dropbtn {
   display: inline-block;
   color: white;
@@ -50,7 +56,12 @@ img.centerc {
   display: block;
   text-align: left;
 }
-
+.responsive
+{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 .dropdown-content a:hover {background-color: lightblue;}
 
 .dropdown:hover .dropdown-content {
